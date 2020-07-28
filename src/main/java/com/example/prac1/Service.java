@@ -11,7 +11,7 @@ public class Service {
     public String index(Model model){
 
 
-        return "test";
+        return "main";
     }
 
 }
