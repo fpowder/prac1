@@ -1,6 +1,5 @@
 package com.example.prac1.config;
 
-<<<<<<< HEAD
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -14,8 +13,5 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/").setViewName("test");
         registry.addViewController("index").setViewName("test");
     }*/
-=======
-public class WebMvcConfig {
->>>>>>> github/backUnderTest
 
 }
